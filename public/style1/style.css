@@ -13,10 +13,7 @@ header>div{
     margin-left: 200px;
     margin-top: 20px;
 }
-#contact{
-    width: 100%;
-  float: left;
-}
+
 
 .experience-details{
     color: #b0b0b0;
@@ -95,14 +92,12 @@ color: #efefef;
 
 dl {
     width: 100%;
-    
     padding: 0;
     margin: 0
   }
   dt {
     float: left;
     width: 15%;
-    /* adjust the width; make sure the total of both is 100% */
     background: red;
     padding: 0;
     margin: 0;
@@ -111,7 +106,6 @@ dl {
   dd {
     float: left;
     width: 85%;
-    /* adjust the width; make sure the total of both is 100% */
     background: black;
     padding: 0;
     margin: 0;
@@ -132,3 +126,51 @@ dl {
 hgroup{
     color: red;
 }
+
+@media screen and (max-width: 980px){
+    #contact{
+        margin-top: 0;
+        width: auto;
+    }
+
+    dt {
+        float: left;
+        width: 25%;
+        background: red;
+        padding: 0;
+        margin: 0;
+        color: white;
+      }
+
+      dd {
+        float: left;
+        width: 75%;
+        background: white;
+        padding: 0;
+        margin: 0;
+        color: black;
+      }
+
+    
+    header>div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 10px;
+     }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    header{
+        width: auto;
+    }
+
+   
+    
+}
+
