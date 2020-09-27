@@ -1,0 +1,181 @@
+body{
+    background-color: #cccccc;
+}
+
+.content{
+    margin: 0 170px 0 170px;
+    display: flex;
+    flex-direction: column;
+    color: #222222;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #222222;
+}
+
+section{
+    padding-left: 10px;
+}
+
+figure{
+    transform: rotate(20deg);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.skills-primary::before{
+    content: "Languages";
+}
+
+.skills-secondary::before{
+    content: "Technical";
+}
+
+.skill{
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.skills-primary .skill:nth-child(1){
+    margin-top: 10px;
+}
+
+.skills-primary .skill:nth-child(1) span{
+    background-color: green;
+    width:50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.skills-primary .skill:nth-child(2) span{
+    background-color: yellow;
+    width:30%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+.skills-primary .skill:nth-child(3) span{
+    background-color: red;
+    width:10%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.skills-secondary .skill:nth-child(1){
+    margin-top: 10px;
+}
+
+.skills-secondary .skill:nth-child(1) span{
+    background-color: green;
+    width:90%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.skills-secondary .skill:nth-child(2) span{
+    background-color: red;
+    width:50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+.skills-secondary .skill:nth-child(3) span{
+    background-color: yellow;
+    width:70%;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#experiences{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 50px 170px;
+    column-gap: 3px;
+    background-color: #F380E8;
+}
+
+#experiences h3{
+    grid-column: span 2;
+}
+
+.experience-details{
+    opacity: 0.7;
+}
+
+#education{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 50px 170px;
+    column-gap: 3px;
+    background-color: #97A647;
+}
+
+#education h3{
+    grid-column: span 2;
+}
+
+li:nth-child(1):before{
+    content: "🎥️ ";
+}
+
+li:nth-child(2):before{
+    content: "🎵️ ";
+}
+
+li:nth-child(3):before{
+    content: "🏊‍♀️️ ";
+}
+
+#about{
+    background-color: #68A677;
+}
+
+#competencies{
+    background-color: #94F2AA;
+}
+
+#hobbies{
+    background-color: #DFF274;
+}
+
+#contact{
+    background-color: #DBDB5E;
+}
+
+dl {
+    width: 100%;
+    padding: 0;
+    margin: 0
+  }
+  dt {
+    float: left;
+    width: 17%;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+  }
+  dd {
+    float: left;
+    width: 83%;
+    padding: 0;
+    margin: 0;
+    color: red;
+  }
+
+  dd a{
+      color: red;
+      text-decoration: none;
+  }
